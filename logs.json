@@ -1,0 +1,67 @@
+
+{
+
+  "timestamp": "2026-05-18T11:00:00Z",
+
+  "temperature": {
+
+    "cpu_celsius": 45.2,
+
+    "gpu_celsius": 38.7,
+
+    "system_celsius": 42.1,
+
+    "source": "sensors"
+
+  },
+
+  "status": {
+
+    "power": "on",
+
+    "uptime_seconds": 86420,
+
+    "last_boot": "2026-05-17T11:00:00Z"
+
+  },
+
+  "programs": {
+
+    "monitor_daemon": {
+
+      "running": true,
+
+      "pid": 1234,
+
+      "memory_mb": 45.2,
+
+      "last_heartbeat": "2026-05-18T10:59:55Z"
+
+    },
+
+    "data_collector": {
+
+      "running": true,
+
+      "pid": 1235,
+
+      "memory_mb": 128.7,
+
+      "last_heartbeat": "2026-05-18T10:59:50Z"
+
+    }
+
+  },
+
+  "metadata": {
+
+    "hostname": "m0n0-srv",
+
+    "version": "1.0.0",
+
+    "log_rotation": "daily"
+
+  }
+
+}
+
