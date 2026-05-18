@@ -1,67 +1,40 @@
-
 {
-
-  "timestamp": "2026-05-18T11:00:00Z",
-
+  "timestamp": "2026-05-18T17:19:21.182980+00:00",
   "temperature": {
-
-    "cpu_celsius": 45.2,
-
-    "gpu_celsius": 38.7,
-
-    "system_celsius": 42.1,
-
-    "source": "sensors"
-
+    "source": "lm-sensors",
+    "cpu_celsius": 74.62,
+    "system_celsius": 70.0
   },
-
   "status": {
-
     "power": "on",
-
-    "uptime_seconds": 86420,
-
-    "last_boot": "2026-05-17T11:00:00Z"
-
+    "uptime_seconds": 61686,
+    "uptime_formatted": "17h 8m",
+    "last_boot": "2026-05-18T00:11:15.212759+00:00"
   },
-
   "programs": {
-
-    "monitor_daemon": {
-
+    "python3": {
       "running": true,
-
-      "pid": 1234,
-
-      "memory_mb": 45.2,
-
-      "last_heartbeat": "2026-05-18T10:59:55Z"
-
+      "pid": 46518,
+      "instances": 3,
+      "memory_mb": 13.62
     },
-
-    "data_collector": {
-
+    "bash": {
       "running": true,
-
-      "pid": 1235,
-
-      "memory_mb": 128.7,
-
-      "last_heartbeat": "2026-05-18T10:59:50Z"
-
+      "pid": 147750,
+      "instances": 2,
+      "memory_mb": 4.84
+    },
+    "systemd": {
+      "running": true,
+      "pid": 1,
+      "instances": 2,
+      "memory_mb": 15.02
     }
-
   },
-
   "metadata": {
-
     "hostname": "m0n0-srv",
-
-    "version": "1.0.0",
-
-    "log_rotation": "daily"
-
+    "version": "2.0.0",
+    "generator": "generate_logs.py",
+    "sensors_available": true
   }
-
 }
-
